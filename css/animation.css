@@ -1,0 +1,64 @@
+h1 span::after {
+    content: " |";
+    animation-name: typewriter;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes typewriter {
+    1.8% { content: "L|";}
+    3.6% { content: "La|";}
+    5.4% { content: "Lar|";}
+    7.2% { content: "Larr|";}
+    9% { content: "Larry|";}
+    10.8% { content: "Larry |";}
+    12.6% { content: "Larry D|";}
+    14.4% { content: "Larry Da|";}
+    16.2% { content: "Larry Dan|";}
+    18% { content: "Larry Dani|";}
+    19.8% { content: "Larry Danie|";}
+    21.6% { content: "Larry Daniel|";}
+    23.4% { content: "Larry Daniels|";}
+    25.2% { content: "Larry Daniel|";}
+    27% { content: "Larry Danie|";}
+    28.8% { content: "Larry Dani|";}
+    30.6% { content: "Larry Dan|";}
+    32.4% { content: "Larry Da|";}
+    34.2% { content: "Larry D|";}
+    36% { content: "Larry |";}
+    37.8% { content: "Larry|";}
+    39.6% { content: "Larr|";}
+    41.4% { content: "Lar|";}
+    43.2% { content: "La|";}
+    45% { content: "L|";}
+    46.8% { content: "D|";}
+    48.6% { content: "De|";}
+    50.4% { content: "Dev|";}
+    52.2% { content: "Deve|";}
+    54% { content: "Devel|";}
+    55.8% { content: "Develo|";}
+    57.6% { content: "Develop|";}
+    59.4% { content: "Develope|";}
+    61.2% { content: "Developer|";}
+    63% { content: "Develope|";}
+    64.8% { content: "Develop|";}
+    66.6% { content: "Devel|";}
+    68.4% { content: "Dev|";}
+    70.2% { content: "De|";}
+    72% { content: "D|";}
+    73.8% { content: "|";}
+    75.6% { content: "D|";}
+    77.4% { content: "De|";}
+    79.2% { content: "Des|";}
+    81% { content: "Desi|";}
+    82.8% { content: "Desig|";}
+    84.6% { content: "Design|";}
+    86.4% { content: "Designer|";}
+    88.2% { content: "Designe|";}
+    90% { content: "Design|";}
+    91.8% { content: "Desig|";}
+    93.6% { content: "Desi|";}
+    95.4% { content: "Des|";}
+    97.2% { content: "De|";}
+    99% { content: "D|";}
+    100% { content: "|";}
+}
